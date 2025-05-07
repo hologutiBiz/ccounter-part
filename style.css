@@ -1,0 +1,18 @@
+footer {
+   display: block;
+   color: #fff;
+   width: 100%;
+   text-align: center;
+   margin: 2rem 0 0.3rem;
+   background-color: #000;
+   border: 1px solid #add8eb31;
+   font-size: 30px;
+}
+footer a {
+   color: #fff;
+   margin: 0.5em;
+}
+footer a:hover {
+   color: #add8eb;
+   transition: 0.4s;
+}
