@@ -1,3 +1,48 @@
+:root {
+   --primary-color:  #2282c7;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-image: url("asset/Lotto_shot.webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+nav {
+   background-color: var(--primary-color);
+}
+.brands-wrapper {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+} 
+.brand-name {
+   color: #fff;
+   font-size: 12px;
+   font-weight: 900;
+}
+
+ul {
+   margin: 5px 0 5px 10px;
+}
+
+h1 {
+   color: #fff;
+   text-transform: capitalize;
+   background-color: #00000037;
+   width:fit-content;
+   padding: 5px 10px;
+   margin: 10px auto;
+   border-radius: 30px;
+
+}
+
 footer {
    display: block;
    color: #fff;

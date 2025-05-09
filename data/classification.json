@@ -227,8 +227,8 @@
         "enquivalent": 80,
         "code": 2,
         "turning": 19
-    },
-    {
+      },
+      {
         "number": 20,
         "counterpart": 65,
         "bonanza": 86,
@@ -239,8 +239,8 @@
         "enquivalent": 79,
         "code": 91,
         "turning": 2
-    },
-    {
+      },
+      {
         "number": 21,
         "counterpart": 66,
         "bonanza": 61,
@@ -251,8 +251,8 @@
         "enquivalent": 78,
         "code": 90,
         "turning": 12
-    },
-    {
+      },
+      {
         "number": 22,
         "counterpart": 67,
         "bonanza": 42,
@@ -263,8 +263,8 @@
         "enquivalent": 77,
         "code": 99,
         "turning": 22 
-    },
-    {
+      },
+      {
         "number": 23,
         "counterpart": 68,
         "bonanza": 19,
@@ -275,8 +275,8 @@
         "enquivalent": 76,
         "code": 98,
         "turning": 32
-    },
-    {
+      },
+      {
         "number": 24,
         "counterpart": 69,
         "bonanza": 18,
@@ -287,8 +287,8 @@
         "enquivalent": 75,
         "code": 97,
         "turning": 42 
-    },
-    {
+      },
+      {
         "number": 25,
         "counterpart": 70,
         "bonanza": 80,
@@ -299,10 +299,10 @@
         "enquivalent": 74,
         "code": 96,
         "turning": 52
-    }
+      }
    ],
    "fortysix_to_ninety": [
-    {
+      {
         "number": 46,
         "counterpart": 1,
         "bonanza": 90,
@@ -313,6 +313,6 @@
         "enquivalent": 53,
         "code": 75,
         "turning": 64
-     }
-]
+      }
+   ]  
 }
