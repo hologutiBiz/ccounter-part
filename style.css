@@ -9,9 +9,7 @@
 
 body {
    background-image: url("asset/Lotto_shot.webp");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
+   font-weight: 400;
 }
 
 nav {
@@ -54,7 +52,7 @@ h1 {
    align-items: center;
    width: fit-content;
    margin: 2em auto;
-   border: 1px solid #000;
+   border: 1px solid var(--primary-color);
    gap: 2em;
 }
 .class-name-wrapper {
@@ -68,19 +66,19 @@ h1 {
    padding: 5px;
    transform: rotate(-180deg);
 }
+tbody {
+   background-color: #ffff00;
+   font-size: 20px;
+}
 .num {
    color: white;
    background-color: #800080;
-
 }
-tbody {
-   background-color: #ffff00;
-}
-
 td {
    padding: 5px;
    text-align: center;
    font-weight:400;
+   border-radius: 2px;
 }
 
 footer {
@@ -189,4 +187,7 @@ footer a:hover {
        flex-direction: column;
        gap: 2rem;
    }
+   tbody {
+   font-size: normal;
+}
 }

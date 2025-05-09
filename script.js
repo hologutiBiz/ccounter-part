@@ -1,7 +1,6 @@
 fetch("data/classification.json")
 .then(res => res.json())
 .then(data => {
-   console.log(data);
    const fillTable = (dataset, tbodyId) => {
       const tbody = document.getElementById(tbodyId);
       dataset.forEach(num => {
