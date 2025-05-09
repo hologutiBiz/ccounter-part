@@ -50,12 +50,12 @@ h1 {
 
 .table-wrapper {
    display: flex;
-   gap: 2.5em;
+   justify-content: center;
+   align-items: center;
    width: fit-content;
-   margin: 50px 0;
+   margin: 2em auto;
    border: 1px solid #000;
-   background-color: #00000006;
-
+   gap: 2em;
 }
 .class-name-wrapper {
    position: sticky;
@@ -185,7 +185,7 @@ footer a:hover {
        font-size: 2rem;
    }
 
-   .wrapper {
+   .table-wrapper {
        flex-direction: column;
        gap: 2rem;
    }
