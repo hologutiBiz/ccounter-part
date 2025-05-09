@@ -6,7 +6,7 @@ fetch("data/classification.json")
       dataset.forEach(num => {
          const row = document.createElement("row");
          row.innerHTML = `
-            <td>${num.number}</td>
+            <td class="num">${num.number}</td>
             <td>${num.counterpart}</td>
             <td>${num.bonanza}</td>
             <td>${num.malta}</td>
