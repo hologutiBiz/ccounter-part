@@ -92,7 +92,7 @@
         "stringKey": 43,
         "shadow": 2,
         "partner": 6,
-        "enquivalent": 1,
+        "enquivalent": "01",
         "code": 3,
         "turning": 80
       },
@@ -117,7 +117,7 @@
         "shadow": 43,
         "partner": 5,
         "enquivalent": 89,
-        "code": 1,
+        "code": "01",
         "turning": 1
       },
       {
@@ -129,7 +129,7 @@
         "shadow": 44,
         "partner": 17,
         "enquivalent": 88,
-        "code": 0,
+        "code": "00",
         "turning": 11 
       },
       {
@@ -141,7 +141,7 @@
         "shadow": 48,
         "partner": 13,
         "enquivalent": 87,
-        "code": 9,
+        "code": "09",
         "turning": 21
       },
       {
@@ -153,7 +153,7 @@
         "shadow": 40,
         "partner": 12,
         "enquivalent": 86,
-        "code": 8,
+        "code": "08",
         "turning": 31
       },
       {
@@ -165,7 +165,7 @@
         "shadow": 41,
         "partner": 18,
         "enquivalent": 85,
-        "code": 7,
+        "code": "07",
         "turning": 41 
       },
       {
@@ -177,7 +177,7 @@
         "shadow": 47,
         "partner": 19,
         "enquivalent": 84,
-        "code": 6,
+        "code": "06",
         "turning": 51 
       },
       {
@@ -189,7 +189,7 @@
         "shadow": 49,
         "partner": "-",
         "enquivalent": 83,
-        "code": 5,
+        "code": "05",
         "turning": 61 
       },
       {
@@ -201,7 +201,7 @@
         "shadow": 45,
         "partner": 11,
         "enquivalent": 82,
-        "code": 4,
+        "code": "04",
         "turning": 71
      },
      {
@@ -213,7 +213,7 @@
         "shadow": 42,
         "partner": 14,
         "enquivalent": 81,
-        "code": 3,
+        "code": "03",
         "turning": 81
       },
       {
@@ -225,7 +225,7 @@
         "shadow": 46,
         "partner": 15,
         "enquivalent": 80,
-        "code": 2,
+        "code": "02",
         "turning": 19
       },
       {
@@ -299,6 +299,246 @@
         "enquivalent": 74,
         "code": 96,
         "turning": 52
+      },
+      {
+        "number": 26,
+        "counterpart": 71,
+        "bonanza": 62,
+        "malta": 64,
+        "stringKey": 14,
+        "shadow": 89,
+        "partner": 28,
+        "enquivalent": 73,
+        "code": 95,
+        "turning": 62
+      },
+      {
+        "number": 27,
+        "counterpart": 72,
+        "bonanza": 32,
+        "malta": 63,
+        "stringKey": 63,
+        "shadow": 85,
+        "partner": 29,
+        "enquivalent": 72,
+        "code": 94,
+        "turning": 72
+      },
+      {
+        "number": 28,
+        "counterpart": 73,
+        "bonanza": 71,
+        "malta": 62,
+        "stringKey": 52,
+        "shadow": 82,
+        "partner": 26,
+        "enquivalent": 71,
+        "code": 93,
+        "turning": 82 
+      },
+      {
+        "number": 29,
+        "counterpart": 74,
+        "bonanza": 72,
+        "malta": 61,
+        "stringKey": 38,
+        "shadow": 86,
+        "partner": 27,
+        "enquivalent": 70,
+        "code": 92,
+        "turning": 29
+      },
+      {
+        "number": 30,
+        "counterpart": 75,
+        "bonanza": 14,
+        "malta": 60,
+        "stringKey": 78,
+        "shadow": 3,
+        "partner": 38,
+        "enquivalent": 69,
+        "code": 81,
+        "turning": 3
+      },
+      {
+        "number": 31,
+        "counterpart": 76,
+        "bonanza": 37,
+        "malta": 59,
+        "stringKey": 88,
+        "shadow": 4,
+        "partner": 35,
+        "enquivalent": 68,
+        "code": 80,
+        "turning": 13
+      },
+      {
+        "number": 32,
+        "counterpart": 77,
+        "bonanza": 27,
+        "malta": 58,
+        "stringKey": 11,
+        "shadow": 8,
+        "partner": 34,
+        "enquivalent": 67,
+        "code": 89,
+        "turning": 23
+      },
+      {
+        "number": 33,
+        "counterpart": 78,
+        "bonanza": 5,
+        "malta": 57,
+        "stringKey": 80,
+        "shadow": 33,
+        "partner": 36,
+        "enquivalent": 66,
+        "code": 88,
+        "turning": 33 
+      },
+      {
+        "number": 34,
+        "counterpart": 79,
+        "bonanza": 73,
+        "malta": 56,
+        "stringKey": 67,
+        "shadow": "01",
+        "partner": 32,
+        "enquivalent": 65,
+        "code": 87,
+        "turning": 43
+      },
+      {
+        "number": 35,
+        "counterpart": 80,
+        "bonanza": 38,
+        "malta": 55,
+        "stringKey": 21,
+        "shadow": "07",
+        "partner": 31,
+        "enquivalent": 64,
+        "code": 86,
+        "turning": 53
+      },
+      {
+        "number": 36,
+        "counterpart": 81,
+        "bonanza": 4,
+        "malta": 54,
+        "stringKey": 53,
+        "shadow": "09",
+        "partner": 33,
+        "enquivalent": 63,
+        "code": 85,
+        "turning": 63
+      },
+      {
+        "number": 37,
+        "counterpart": 82,
+        "bonanza": 31,
+        "malta": 53,
+        "stringKey": 72,
+        "shadow": "05",
+        "partner": 39,
+        "enquivalent": 62,
+        "code": 84,
+        "turning": 73
+      },
+      {
+        "number": 38,
+        "counterpart": 83,
+        "bonanza": 35,
+        "malta": 52,
+        "stringKey": 29,
+        "shadow": "02",
+        "partner": 30,
+        "enquivalent": 61,
+        "code": 83,
+        "turning": 83
+      },
+      {
+        "number": 39,
+        "counterpart": 84,
+        "bonanza": 69,
+        "malta": 51,
+        "stringKey": 69,
+        "shadow": "06",
+        "partner": 37,
+        "enquivalent": 60,
+        "code": 82,
+        "turning":39 
+      },
+      {
+        "number": 40,
+        "counterpart": 85,
+        "bonanza": 43,
+        "malta": 50,
+        "stringKey": 86,
+        "shadow": 13,
+        "partner": 41,
+        "enquivalent": 59,
+        "code": 71,
+        "turning": 4
+      },
+      {
+        "number": 41,
+        "counterpart": 86,
+        "bonanza": 79,
+        "malta": 49,
+        "stringKey": 77,
+        "shadow": 14,
+        "partner": 40,
+        "enquivalent": 58,
+        "code": 70,
+        "turning": 14 
+      },
+      {
+        "number": 42,
+        "counterpart": 87,
+        "bonanza": 22,
+        "malta": 48,
+        "stringKey": 55,
+        "shadow": 18,
+        "partner": 48,
+        "enquivalent": 57,
+        "code": 79,
+        "turning": 24
+      },
+      {
+        "number": 43,
+        "counterpart": 88,
+        "bonanza": 40,
+        "malta": 47,
+        "stringKey": 8,
+        "shadow": 10,
+        "partner": 46,
+        "enquivalent": 56,
+        "code": 78,
+        "turning": 34 
+      },
+      {
+        "number": 44,
+        "counterpart": 89,
+        "bonanza": 76,
+        "malta": 46,
+        "stringKey": 60,
+        "shadow": 11,
+        "partner": 47,
+        "enquivalent": 55,
+        "code": 77,
+        "turning": 44
+      },
+      {
+        "number": 45,
+        "counterpart": 90,
+        "bonanza": 47,
+        "malta": 45,
+        "stringKey": 24,
+        "shadow": 17,
+        "partner": 49,
+        "enquivalent": 54,
+        "code": 76,
+        "turning": 54
       }
    ],
    "fortysix_to_ninety": [
