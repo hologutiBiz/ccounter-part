@@ -1,4 +1,4 @@
-fetch("data/classification.json")
+fetch("https://lotto-classification-api.netlify.app/.netlify/functions/classification")
 .then(res => res.json())
 .then(data => {
    const fillTable = (dataset, tbodyId) => {
@@ -24,4 +24,13 @@ fetch("data/classification.json")
    fillTable(data.one_to_fortyfive, "oneToFortyfive");
    fillTable(data.fortysix_to_ninety, "fortysixToNinety");
    console.log(data);
-});
+})
+.catch(err => console.error("API error:", err));
+
+
+// fetch("https://your-netlify-site.netlify.app/.netlify/functions/lotto-endpoint")
+//   .then(res => res.json())
+//   .then(data => {
+//     fillTable(data.one_to_fortyfive, "oneToFortyfive");
+//     fillTable(data.fortysix_to_ninety, "fortysixToNinety");
+//   })
