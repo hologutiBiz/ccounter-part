@@ -30,6 +30,26 @@ ul {
    margin: 5px 0 5px 10px;
 }
 
+/*Loading & error*/
+.loading-and-error-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.loading {
+   color: #fff;
+   padding: 20px 30px;
+   background-color: #000;
+   font-weight: 800;
+}
+.error {
+   color: #ff0000;
+   padding: 10px 5px;
+   background-color: #fff;
+   font-weight: 600;
+}
+
 main {
    display: block;
    margin: 0 auto;
