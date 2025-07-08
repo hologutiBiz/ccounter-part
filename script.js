@@ -1,8 +1,9 @@
 fetch("https://lotto-classification-api.netlify.app/.netlify/functions/classification")
    .then(res => {
       if(!res.ok) throw new Error(`Fetch failed: ${res.status}`);
+
+      return  res.json();
    })
-   .then(res => res.json())
    .then(data => {
           if (!data || !data.one_to_fortyfive) throw new Error("No valid data received");
       const fillTable = (dataset, tbodyId) => {
