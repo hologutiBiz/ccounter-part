@@ -88,7 +88,6 @@ h1 {
 }
 tbody {
    background-color: #ffff00;
-   /* font-size: 20px; */
 }
 .num {
    color: white;
@@ -97,8 +96,7 @@ tbody {
 td {
    padding: 5px;
    text-align: center;
-   font-weight:400;
-   /* border-radius: 2px; */
+   font-weight: 400;
 }
 
 footer {
@@ -119,77 +117,6 @@ footer a:hover {
    color: #add8eb;
    transition: 0.4s;
 }
-
-
-/* body {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   margin: 0;
-   background-image: url("./Assets/Lotto_image_cinematic_shot_dyn.webp"); 
-} */
-
-/* header {
-   display: flex;
-   width: 100%;
-   justify-content: center;
-   background-color: #000;
-   margin: 0;
-} */
-
-/* li a img {
-   width: 100px;
-   height: 100px;
-   background-color: #fff;
-   border-radius: 100px;
-   box-shadow: 0px 0px 15px 2px #ff0000;
-
-} */
-
-/* h1 {
-   color: #fff;
-   text-align: center;
-   text-transform: uppercase;
-   background-color: #000000d0;
-   padding: 5px;
-   font-size: 2.5em;
-   animation: change-color 5s infinite;
-} */
-   /* @keyframes change-color {
-       0% {
-           color: #fff;
-       }
-       100% {
-           color: #add8eb;
-       }
-   } */
-
-
-
-
-/* footer {
-   display: block;
-   color: #fff;
-   width: 100%;
-   text-align: center;
-   margin: 2rem 0 0.3rem;
-   background-color: #000;
-   border: 1px solid #add8eb31;
-   font-size: 30px;
-}
-footer a {
-   color: #fff;
-   margin: 0.5em;
-}
-footer a:hover {
-   color: #add8eb;
-   transition: 0.4s;
-} */
-
-
-
-
 
 
 @media screen and (max-width: 610px) {

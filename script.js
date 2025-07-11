@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", () => {
                   <td>${num.counterpart}</td>
                   <td>${num.bonanza}</td>
                   <td>${num.malta}</td>
-                  <td>${num.stringKey}</td>
+                  <td>${num.stringkey}</td>
                   <td>${num.shadow}</td>
                   <td>${num.partner}</td>
                   <td>${num.enquivalent}</td>
