@@ -1,6 +1,5 @@
 const loading = document.getElementById("loading");
 const errorMsg = document.getElementById("error");
-const tableHeaders = document.querySelectorAll(".class-name-wrapper");
 
 const showError = (message) => {
    errorMsg.textContent = message;
@@ -16,11 +15,6 @@ window.addEventListener("DOMContentLoaded", () => {
    loading.style.display = "block";
    hideError();
 
-   // tableHeaders.style.display = "none";
-   tableHeaders.forEach(header => {
-      header.style.display = "none";
-   })
-
    // fetch classification data
    fetch("https://lotto-classification-api.netlify.app/.netlify/functions/classification")
       .then(res => {
@@ -30,9 +24,6 @@ window.addEventListener("DOMContentLoaded", () => {
       })
       .then(data => {
          if (!data || !data.one_to_fortyfive) throw new Error("No valid data received");
-
-         header.style.display = "initial";
-         
          const fillTable = (dataset, tbodyId) => {
             const tbody = document.getElementById(tbodyId);
             dataset.forEach(num => {

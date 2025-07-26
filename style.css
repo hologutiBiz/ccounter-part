@@ -39,11 +39,10 @@ nav {
    width: fit-content;
    justify-content: center;
    align-items: center;
+   margin: 0 auto;
    box-shadow: 0 2px 8px #ffffff7a;
-
 }
 #counterpart_qrCode img {
-      background-color: #ff00ff;
       width: 150px !important;
       height: 150px !important;
       margin-top: 20px;
@@ -157,6 +156,12 @@ footer a:hover {
 
    h1 {
        font-size: 1.5rem;
+   }
+
+   #counterpart_qrCode img {
+      background-color: #ff00ff;
+      width: 100px !important;
+      height: 100px !important;
    }
 
    .table-wrapper {
