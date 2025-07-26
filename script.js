@@ -1,5 +1,6 @@
 const loading = document.getElementById("loading");
 const errorMsg = document.getElementById("error");
+const tableHeaders = document.querySelectorAll(".class-name-wrapper");
 
 const showError = (message) => {
    errorMsg.textContent = message;
@@ -15,15 +16,23 @@ window.addEventListener("DOMContentLoaded", () => {
    loading.style.display = "block";
    hideError();
 
+   // tableHeaders.style.display = "none";
+   tableHeaders.forEach(header => {
+      header.style.display = "none";
+   })
+
    // fetch classification data
    fetch("https://lotto-classification-api.netlify.app/.netlify/functions/classification")
       .then(res => {
          if(!res.ok) throw new Error(`Fetch failed: ${res.status}`);
 
-         return  res.json();
+         return res.json();
       })
       .then(data => {
          if (!data || !data.one_to_fortyfive) throw new Error("No valid data received");
+
+         header.style.display = "initial";
+         
          const fillTable = (dataset, tbodyId) => {
             const tbody = document.getElementById(tbodyId);
             dataset.forEach(num => {
@@ -36,7 +45,7 @@ window.addEventListener("DOMContentLoaded", () => {
                   <td>${num.stringkey}</td>
                   <td>${num.shadow}</td>
                   <td>${num.partner}</td>
-                  <td>${num.enquivalent}</td>
+                  <td>${num.equivalent}</td>
                   <td>${num.code}</td>
                   <td>${num.turning}</td>
                `;
@@ -59,4 +68,12 @@ window.addEventListener("DOMContentLoaded", () => {
       .finally(() => {
          loading.style.display = "none";
       })
+});
+
+// Lotto Classification Chart app
+var counterpartQrCode = new QRCode("counterpart_qrCode", {
+   text: "https://play.google.com/store/apps/details?id=com.visuallottoboard.lottoclassificationchart",
+   colorDark: "#000000",
+   colorLight: "#ffffff",
+   correctLevel : QRCode.CorrectLevel.H
 });

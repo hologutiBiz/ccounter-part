@@ -26,6 +26,35 @@ nav {
    font-weight: 900;
 }
 
+.app-link-wrapper a {
+   color: #fff;
+   display: block;
+   text-align: right;
+   margin: 0 20px auto 0;
+}
+
+.qr-section {
+   display: flex;
+   flex-direction: column;
+   width: fit-content;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 2px 8px #ffffff7a;
+
+}
+#counterpart_qrCode img {
+      background-color: #ff00ff;
+      width: 150px !important;
+      height: 150px !important;
+      margin-top: 20px;
+      margin-bottom: 0;
+   }
+   .qr-section p {
+      color: #add8eb;
+      color: #fff;
+      margin: 0;
+   }
+
 ul {
    margin: 5px 0 5px 10px;
 }

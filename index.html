@@ -41,6 +41,9 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css">
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
 </head>
 <body>
       <!-- Google Tag Manager (noscript) -->
@@ -61,6 +64,9 @@
             </ul>
             <span class="brand-name">Visual Lotto Board</span>
          </div>
+         <div class="app-link-wrapper">
+            <a href="https://play.google.com/store/apps/details?id=com.visuallottoboard.lottoclassificationchart">Download mobile app</a>
+         </div>
       </nav>
    </header>
 
@@ -69,8 +75,14 @@
       <div class="error" id="error"></div>
    </div>
 
+   <h1>lotto classification chart</h1>
+
+   <div class="qr-section">
+      <div id="counterpart_qrCode" class="counterpart_qr-code"></div>
+      <p>Scan to download on mobile</p>
+   </div>
+
    <main>
-      <h1>lotto classification chart</h1>
       <div class="table-wrapper">
          <table>
             <thead>
@@ -82,7 +94,7 @@
                   <th class="class-name">Stringkey</th>
                   <th class="class-name">Shadow</th>
                   <th class="class-name">Partner</th>
-                  <th class="class-name">Enquivalent</th>
+                  <th class="class-name">Equivalent</th>
                   <th class="class-name">Code</th>
                   <th class="class-name">Turning</th>
                </tr>
@@ -101,7 +113,7 @@
                   <th class="class-name">Stringkey</th>
                   <th class="class-name">Shadow</th>
                   <th class="class-name">Partner</th>
-                  <th class="class-name">Enquivalent</th>
+                  <th class="class-name">Equivalent</th>
                   <th class="class-name">Code</th>
                   <th class="class-name">Turning</th>
                </tr>
