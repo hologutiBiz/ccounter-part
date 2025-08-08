@@ -1,5 +1,6 @@
 const loading = document.getElementById("loading");
 const errorMsg = document.getElementById("error");
+const mainElement = document.getElementById("main-container")
 
 const showError = (message) => {
    errorMsg.textContent = message;
@@ -13,6 +14,7 @@ const hideError = () => {
 
 window.addEventListener("DOMContentLoaded", () => {
    loading.style.display = "block";
+   mainElement.style.display = "none";
    hideError();
 
    // fetch classification data
@@ -50,9 +52,13 @@ window.addEventListener("DOMContentLoaded", () => {
       })
       .catch(err => {
          if(!navigator.onLine) {
-            showError("No internet connection. Please check your network.");      
+            showError("No internet connection. Please check your network.");  
+            mainElement.style.display = "none";
+    
          } else {
-            showError("Server Error: Failed to load data. Please try again later.");     
+            showError("Server Error: Failed to load data. Please try again later.");
+            mainElement.style.display = "none";
+     
          }
          console.error("API error:", err);
       })
@@ -68,3 +74,13 @@ var counterpartQrCode = new QRCode("counterpart_qrCode", {
    colorLight: "#ffffff",
    correctLevel : QRCode.CorrectLevel.H
 });
+
+window.addEventListener("offline", () => {
+   showError("No internet connection");
+   mainElement.style.display = "none";
+
+});
+
+window.addEventListener("online", () => {
+   hideError();
+})

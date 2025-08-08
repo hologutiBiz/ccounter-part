@@ -13,7 +13,10 @@ body {
 }
 
 nav {
+   display: flex;
    background-color: var(--primary-color);
+   justify-content: space-between;
+   align-items: center;
 }
 .brands-wrapper {
    display: flex;
@@ -26,6 +29,10 @@ nav {
    font-weight: 900;
 }
 
+.contact a {
+   color: #fff;
+   margin: auto 10px;
+}
 .app-link-wrapper a {
    color: #fff;
    display: block;
@@ -40,6 +47,7 @@ nav {
    justify-content: center;
    align-items: center;
    margin: 0 auto;
+   background-color: #fff;
    box-shadow: 0 2px 8px #ffffff7a;
 }
 #counterpart_qrCode img {
@@ -49,8 +57,7 @@ nav {
       margin-bottom: 0;
    }
    .qr-section p {
-      color: #add8eb;
-      color: #fff;
+      color: #125d93;
       margin: 0;
    }
 
@@ -67,15 +74,18 @@ ul {
 }
 .loading {
    color: #fff;
-   padding: 20px 30px;
-   background-color: #000;
+   width: 100%;
+   text-align: center;
+   background-color: #008000;
    font-weight: 800;
 }
 .error {
-   color: #ff0000;
-   padding: 10px 5px;
-   background-color: #fff;
-   font-weight: 600;
+   color: #fff;
+   width: 100%;
+   text-align: center;
+   padding: 10px 0;
+   background-color: #ff0000;
+   font-weight: bold;
 }
 
 main {
@@ -127,26 +137,6 @@ td {
    font-weight: 400;
 }
 
-footer {
-   display: block;
-   color: #fff;
-   width: 100%;
-   text-align: center;
-   margin: 2rem 0 0.3rem;
-   background-color: #000;
-   border: 1px solid #add8eb31;
-   font-size: 30px;
-}
-footer a {
-   color: #fff;
-   margin: 0.5em;
-}
-footer a:hover {
-   color: #add8eb;
-   transition: 0.4s;
-}
-
-
 @media screen and (max-width: 610px) {
    body {
        width: 100%;
@@ -169,6 +159,6 @@ footer a:hover {
        gap: 2rem;
    }
    tbody {
-   font-size: normal;
-}
+      font-size: normal;
+   }
 }
