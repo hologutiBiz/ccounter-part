@@ -141,17 +141,19 @@ td {
    body {
        width: 100%;
        padding: 0;
+   }
 
+   nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+   .contact {
+      order: 1;
+      display: flex;
    }
 
    h1 {
        font-size: 1.5rem;
-   }
-
-   #counterpart_qrCode img {
-      background-color: #ff00ff;
-      width: 100px !important;
-      height: 100px !important;
    }
 
    .table-wrapper {

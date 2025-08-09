@@ -5,6 +5,7 @@ const mainElement = document.getElementById("main-container")
 const showError = (message) => {
    errorMsg.textContent = message;
    errorMsg.style.display = "block";
+   mainElement.style.display = "none";
 };
 
 const hideError = () => {
@@ -53,17 +54,16 @@ window.addEventListener("DOMContentLoaded", () => {
       .catch(err => {
          if(!navigator.onLine) {
             showError("No internet connection. Please check your network.");  
-            mainElement.style.display = "none";
+            // mainElement.style.display = "none";
     
          } else {
             showError("Server Error: Failed to load data. Please try again later.");
-            mainElement.style.display = "none";
-     
+            // mainElement.style.display = "none";
          }
-         console.error("API error:", err);
       })
       .finally(() => {
          loading.style.display = "none";
+         // mainElement.style.display = "block";
       })
 });
 
@@ -78,9 +78,9 @@ var counterpartQrCode = new QRCode("counterpart_qrCode", {
 window.addEventListener("offline", () => {
    showError("No internet connection");
    mainElement.style.display = "none";
-
 });
 
 window.addEventListener("online", () => {
    hideError();
+   mainElement.style.display = "block";
 })
