@@ -49,7 +49,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
          fillTable(data.one_to_fortyfive, "oneToFortyfive");
          fillTable(data.fortysix_to_ninety, "fortysixToNinety");
-         console.log(data);
       })
       .catch(err => {
          if(!navigator.onLine) {
@@ -63,7 +62,9 @@ window.addEventListener("DOMContentLoaded", () => {
       })
       .finally(() => {
          loading.style.display = "none";
-         // mainElement.style.display = "block";
+         if (loading.style.display === "none" && errorMsg.style.display === "none") {
+            mainElement.style.display = "block";
+         }
       })
 });
 
