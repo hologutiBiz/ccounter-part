@@ -30,6 +30,10 @@ nav {
    font-weight: 900;
 }
 
+ul {
+   list-style-type: none;
+}
+
 .header-right {
    display: flex;
    gap: 20px;
