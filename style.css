@@ -307,6 +307,12 @@ border-radius: 5px;
       text-align: center;
    }
 
+   .social-footer {
+      justify-content: center;
+      align-items: center;
+      gap: 1.9rem;
+   }
+
    .footer-section a {
       justify-content: center;
    }
